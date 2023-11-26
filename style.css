@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+    font-size: 62.5%;
+}
+img{
+    width: 100%;
+}
+nav{
+    padding: 1.7rem 3rem !important;
+    color: #fff !important;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+nav ul li{
+    display: flex;
+   margin-left: 1rem;
+}
+nav a{
+    color: #fff;
+}
+.mobile-view{
+   display: none;
+}
+
+.navbar-toggler{
+ background-color:#fff !important;
+}
+.navbar-toggler-icon{
+    color:#000 !important;
+}
+nav ul li a{
+    text-decoration: none !important;
+    text-transform: none !important;
+}
+nav ul li a{
+   transition: 0.4s ease-in;
+}
+nav ul li a:hover{
+    color:rgb(26, 26, 86)
+}
+@media (max-width:43rem){
+    .mobile-view {
+     display: block;
+    }
+    .desktop-view{
+       display: none;
+    }
+}
