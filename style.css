@@ -51,3 +51,11 @@ nav ul li a:hover{
        display: none;
     }
 }
+
+.para{
+    font-size: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: 3rem 4rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
